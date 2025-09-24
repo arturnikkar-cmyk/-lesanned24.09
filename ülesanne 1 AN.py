@@ -1,0 +1,5 @@
+hour = int(input("Siseta tund (0-23): "))
+if hour < 6: print("öö")
+elif hour < 12: print("hommik")
+elif hour < 18: print("päev")
+else: print("õhtu")
